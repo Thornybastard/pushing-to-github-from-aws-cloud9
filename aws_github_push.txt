@@ -1,0 +1,22 @@
+#I had no end of trouble trying to find out how to do this.
+#Finally found the answer at
+#https://scotch.io/@denisddesigner/clone-and-edit-github-repo-using-aws-cloud-9
+#from Denis Murphy who deserves all the credit.
+#I'm merely posting this to help other frustrated
+#students and rookie developers like me and practice
+#setting up a repo.
+#Use the code below in your AWS Cloud9 terminal
+#being sure to be in the directory of the pertinent app
+# for example: ubuntu@ip-172-31-82-63:~/rails_projects/alpha-blog$
+
+
+git init
+git add .
+git commit -m "description of what I changed"
+git push origin master
+
+#you will also need to generate SSH keys in AWS Cloud9
+#to do this.
+#I doesn't have any SSH keys like the old Cloud9.
+#plenty of help here:
+#https://help.github.com/en/articles/connecting-to-github-with-ssh

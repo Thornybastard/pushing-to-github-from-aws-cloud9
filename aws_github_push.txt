@@ -1,4 +1,5 @@
 #I had no end of trouble trying to find out how to do this.
+#***IT IS NOT THE SAME AS THE OLD CLOUD9***
 #Finally found the answer at
 #https://scotch.io/@denisddesigner/clone-and-edit-github-repo-using-aws-cloud-9
 #from Denis Murphy who deserves all the credit.
